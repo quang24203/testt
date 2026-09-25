@@ -1,0 +1,5 @@
+round,frame_id,object,action,rule_or_reason
+1,frame_0044.jpg,xe ở làn giữa,edited,"AI gợi ý box lệch về phía phải, không khớp thân xe; điều chỉnh theo guideline để bao trọn phần thân và mái xe"
+1,frame_0047.jpg,xe nhỏ ở mép trái,added,"Mô hình bỏ sót xe do bị che mảnh và có góc nhìn nghiêng; thêm box theo hướng dẫn về xe từ 4 bánh trở lên"
+1,frame_0050.jpg,xe ở góc phải xa,deleted,"Box gợi ý là phản quang và bóng nền, không phải vật thể xe; bỏ theo quy tắc loại trừ box giả"
+1,frame_0144.jpg,xe trung tâm phía sau,accepted,"Box AI khá khớp với thân xe và không cần sửa; giữ nguyên vì đáp ứng tỉ lệ và vị trí hợp lý"
